@@ -1,0 +1,58 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOKFzJt7s5XWwhYPiAX6++E",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/diadiaspora/AI-Machine-Learning/blob/main/Applied_Data_Science/NumPy\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "k7f-_DQT6TFu",
+        "outputId": "64c2b17d-3345-47fd-b4b1-7008d45c0622"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[10 20 30 40 50]\n",
+            "<class 'numpy.ndarray'>\n"
+          ]
+        }
+      ],
+      "source": [
+        "# Example:\n",
+        "import numpy as np\n",
+        "arr = np.array ([10,20,30,40,50])\n",
+        "print (arr)\n",
+        "print (type(arr))"
+      ]
+    }
+  ]
+}
