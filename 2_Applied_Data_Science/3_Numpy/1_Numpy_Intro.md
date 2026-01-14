@@ -52,3 +52,18 @@ row 1:  3  4  5
 
 
 ![Python logo](https://towardsdatascience.com/wp-content/uploads/2024/09/1T8BqVvPTcyuXbzWubPt8Zw.png)
+
+__`array()`__ 
+
+```python
+In [8]: import numpy as np
+
+In [9]: arr1d = np.array([1, 2, 3, 4])
+
+In [10]: type(arr1d)
+
+Out[10]: numpy.ndarray
+
+In [11]: print(arr1d)
+[1 2 3 4]
+```
